@@ -1,0 +1,674 @@
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+      Lighter-UoEm clone
+    </title>
+
+      <style>
+        .head-er{
+          display: flex;
+         justify-content: space-between;
+         position: fixed;
+         background-color: white;
+         top: 0px;
+         right: 20px;
+         left: 30px;
+         z-index: 100;
+      
+        }
+       
+         .head-er1{
+          display: grid;
+          grid-template-columns: 50px 1fr;
+           gap: 20px;
+          }
+
+
+           .logo1{
+          width: 50px;
+        }
+        .univer-sity{
+          color: rgba(9, 9, 67, 0.904);
+        }
+      
+         .head-er2{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex: 1;
+          
+      
+        }
+        
+        .lens{
+          width: 20px;
+          flex: 1;
+          margin-top: 10px;
+        }
+        .lens1{
+          width: 30px;
+          flex: 1;
+        }
+        .use-ful{
+          font-family: Arial, Helvetica, sans-serif;
+          margin-bottom: 10px;
+       
+        }
+                .use-ful1{
+          font-family: Arial, Helvetica, sans-serif;
+          margin-bottom: 40px;
+          font-size: 20px;
+       
+        }
+
+        .hr-r{
+        border: none;
+        height: 2px;
+        background-color: rgb(211, 183, 23);
+        margin-top: 0%;
+        margin-bottom: 15px;}
+
+        .link-s{
+          display: grid;
+          grid-template-rows: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px;
+          row-gap: 10px;
+        
+        }
+        .lin-ks{
+          display: grid;
+          grid-template-columns: 50px 1fr;
+            background-color: #27663e;
+            border-radius: 2px;
+           align-content: center;
+           color: white;
+           font-family: Arial, Helvetica, sans-serif;
+           font-weight: bold;
+        }
+        .lin-ks:hover{
+          background-color: #0000FF;
+          cursor: pointer;
+        }
+        .head-shoulder{
+          width: 30px;
+          background-color: transparent;
+          filter: invert(100%);
+          color: #fff;
+          
+        }
+        .Admissions-office{
+          background-color: #2e2e69;
+          color: white;
+          padding-left: 46px;
+          font-family: roboto, Arial, Helvetica, sans-serif;
+          font-size: 13px;
+          font-weight: 200;
+          text-shadow: 0 0px 1px;
+          padding-top: 28px;
+          padding-bottom: 28px;
+          margin-bottom: 60px;
+        }
+        .contact-number{
+          margin-bottom: 2px;
+          margin-top: 24px;
+        }
+        .contact-number1{
+          margin-top: 5px;
+          margin-bottom: 24px;
+        }
+        .contact-number2{
+          margin-top:24px;
+          margin-bottom: 20px;
+        }
+        .para-graph1{
+           font-family: Arial, Helvetica, sans-serif;
+          margin-bottom: 20px;
+          font-size: 17px;
+          line-height: 30px;
+          color: rgb(65, 58, 58);
+        }
+        .table1{
+          border: solid;
+          background-color: rgb(234, 231, 231);
+          border-spacing: 30px;
+         font-size: 21px;
+         border-width: 1px;
+        }
+        .th1{
+          border: solid;
+          border-width: 1px;
+          background-color: rgb(23, 71, 23);
+          color: white;
+          padding: 10px 6px 10px 6px;
+          border-radius: 4px;
+          font-size: 16px;
+
+        }
+        .th{
+          border: solid;
+          border-width: 1px;
+         padding: 10px 6px 10px 6px;
+         border-radius: 4px;
+         border-color:  rgb(181, 160, 160);
+         color:  rgba(118, 73, 73, 0.909);
+        
+        }
+        .application-grid{
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          place-items: center;
+          height: 40px;
+          margin-bottom: 45px;
+        }
+        .three-pillar{
+          width: 30px;
+          background-color: #27663e;
+        }
+        .application-div{
+          color: white;
+          background-color: #27663e;
+          border: none;
+          margin-right: 30px;
+          border-radius: 3px;
+          font-size: 18px;
+          font-family: Arial, Helvetica, sans-serif;
+          height: 30px;
+          
+          display: grid;
+          grid-template-columns: 35px 1fr;
+        
+        }
+        .paragraph-pg{
+         text-align: center;
+         line-height: 30px;
+         margin-right: 30px;
+         margin-left: 15px;
+        }
+        .use-ful2{
+           font-family: Arial, Helvetica, sans-serif;
+          margin-bottom: 10px;
+          font-size: 17px;
+          color: white;
+          line-height: 19px;
+        }
+        .hr-r2{
+           border: none;
+        height: 2px;
+        background-color: rgb(72, 133, 232);
+        margin-top: 10px;
+        margin-bottom: 40px;
+        }
+        .hr-r3{
+           border: none;
+        height: 2px;
+        background-color: rgb(72, 133, 232);
+        margin-top: 30px;
+        margin-bottom: 40px;
+        }
+        .paragraph-fl{
+          color: #fff;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: 500;
+          margin-top: 8px;
+          margin-bottom: 40px;
+        }
+        .paragraph-pv{
+          color: #fff;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: 500;
+          margin-bottom: 5px;
+          
+        }
+        .paragraph-mg{
+          color: #fff;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: 500;
+          margin-top: 0;
+          margin-bottom: 60px;
+        }
+        .paragraph-ue{
+          color: #fff;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 18px;
+        }
+        .right-arrow{
+          margin-right: 20px;
+          
+        }
+        .section-grid{
+          display: grid;
+          grid-template-columns: 300px 1fr;
+          column-gap: 30px;
+        }
+        @media (max-width: 750px) {
+          .section-grid {
+            grid-template-columns: 1fr;
+
+          }
+        }
+        .footer-section{
+           display: grid;
+          grid-template-columns: 300px 1fr 1fr;
+          column-gap: 30px;
+        }
+         @media (max-width: 700px) {
+          .footer-section {
+            grid-template-columns: 1fr;
+
+          }
+       
+        
+      </style>
+
+    </head>
+    <body>
+    <div  style="padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 50px;
+    ">
+      <header class="head-er">
+          <div class="head-er1">
+        
+        <div>
+          <img class="logo1" src="second project/logo (2).png">
+
+        </div>
+        <div>
+          <table class="univer-sity">
+            <th>
+              UNIVERSITY OF EMBU
+            </tr>
+            <th>
+              Knowledge Transforms
+              </th>
+
+            </table>
+          </div>
+        </div>
+    <div class="head-er1">
+          
+      
+
+            <div>
+            <img class="lens" src="test-images/lens.jpg">
+          </div>
+    <div>
+            <img class="lens1" src="test-images/menu-59.png">
+          </div>
+  </div>
+
+        </header>
+        <section class="section-grid">
+          <div>
+          <h2 class="use-ful">
+            Useful Links
+          </h2>
+          <hr class="hr-r">
+          <div class="link-s">
+            <div class="lin-ks">
+              <div>
+                <img class="head-shoulder" src="test-images/head&shoulder.jpg">
+              </div>
+              <div>
+                Student Portal (TVET)
+
+              </div>
+
+            </div>
+              <div class="lin-ks">
+              <div>
+                <img class="head-shoulder" src="test-images/head&shoulder.jpg">
+              </div>
+              <div>
+                Student Portal
+              </div>
+
+            </div>
+              <div class="lin-ks">
+              <div>
+                <img class="head-shoulder" src="test-images/head&shoulder.jpg">
+              </div>
+              <div>
+                Student Notices
+              </div>
+
+            </div>
+              <div class="lin-ks">
+              <div>
+                <img class="head-shoulder" src="test-images/head&shoulder.jpg">
+              </div>
+              <div>
+                E-learning Portal
+              </div>
+
+            </div>
+              <div class="lin-ks">
+              <div>
+                <img class="head-shoulder" src="test-images/head&shoulder.jpg">
+              </div>
+              <div>
+                Student Email
+              </div>
+
+            </div>
+              <div class="lin-ks">
+              <div>
+                <img class="head-shoulder" src="test-images/head&shoulder.jpg">
+              </div>
+              <div>
+                Student Information Guides
+              </div>
+
+            </div>
+              <div class="lin-ks">
+              <div>
+                <img class="head-shoulder" src="test-images/head&shoulder.jpg">
+              </div>
+              <div>
+                Exam Timetables
+              </div>
+
+            </div>
+              <div class="lin-ks">
+              <div>
+                <img class="head-shoulder" src="test-images/head&shoulder.jpg">
+              </div>
+              <div>
+                Teaching Timetables
+              </div>
+
+            </div>
+              <div class="lin-ks">
+              <div>
+                <img class="head-shoulder" src="test-images/head&shoulder.jpg">
+              </div>
+              <div>
+                Chat with Admissions Office
+              </div>
+
+            </div>
+              <div class="lin-ks">
+              <div>
+                <img class="head-shoulder" src="test-images/head&shoulder.jpg">
+              </div>
+              <div>
+                University of Embu Students Association
+              </div>
+
+            </div>
+              <div class="lin-ks">
+              <div>
+                <img class="head-shoulder" src="test-images/head&shoulder.jpg">
+              </div>
+              <div>
+                Dean of Students Office
+              </div>
+
+            </div>
+              
+            
+
+
+          </div>
+        
+        <h2 class="use-ful">
+          Contact Information
+        </h2>
+        <hr class="hr-r">
+        <div class="Admissions-office">
+          <p>
+            Admissions Office
+          </p>
+          <p class="contact-number">
+            Call: 0706528878
+          </p>
+          <p class="contact-number1">
+            Email: admissions@embuni.ac.ke
+          </p>
+          <p>
+            Accomodation
+          </p>
+          <p class="contact-number">
+            Call: 0768739749
+          </p>
+          <p class="contact-number1">
+            Email: housekeeeping@embuni.ac.ke
+          </p>
+          <p>
+            Elearning Office
+          </p>
+          <p class="contact-number2">
+            Email: odel-studentssupport@embuni.ac.ke
+          </p>
+
+        </div>
+        </div>
+        <div>
+        <h2 class="use-ful1">
+          Prospective Students Information
+        </h2>
+        <p class="para-graph1">
+          The University of Embu (UoEm) Academic Year presently begins in September of each calendar year and ends in August of the subsequent year. The Academic Year comprises two semesters and one trimester each lasting for sixteen (16) weeks. The first semester begins in September and ends in December while the second semester begins in January of the subsequent year and ends in April. The third semester (trimester) begins in May and ends in August of the same year. Besides the semester based Academic Year, the University also operates a part time (Institutional, Evening and Weekends) based Academic Year for students.
+        </p>
+        <table class="table1">
+          <tr>
+            <th class="th1">
+              
+            </th>
+            <th class="th1">
+             Starts
+            </th>
+            <th class="th1">
+              Ends
+            </th>
+          </tr>
+          <tr>
+            <th class="th">Semester 1</th>
+            <th class="th">September</th>
+            <th class="th">December</th>
+
+            
+          </tr>
+          <tr>
+            <th class="th">
+Semester 2
+            </th>
+             <th class="th">
+              January
+            </th>
+             <th class="th">
+              April
+            </th>
+
+          </tr>
+          <tr>
+             <th class="th">
+              Semester 3
+            </th>
+             <th class="th">
+              May
+            </th>
+             <th class="th">
+              August
+            </th>
+            
+          </tr>
+
+        </table>
+        <p class="para-graph1">
+          UoEm offers various programmes at Certificate, Diploma, Bachelors’, Masters and Doctoral level. In addition, UoEm offers short term courses, seminars, field days and practical demonstrations in modern farming methods in order to cater for farmers’ requirements.
+        </p>
+        <h2 class="use-ful1">
+          How to Apply
+        </h2>
+        <p class="para-graph1">
+          Application forms can either be obtained from the Admissions Office, University of Embu, or downloaded here and should be submitted upon a payment of a non-refundable application fee of KSh. 4,000 for Ph.D, KSh. 2,000 for Masters and Bachelors, KSh. 1,000 for Diploma and KSh. 500 for Certificate for East Africans and USD 100, USD 50, USD 25 and USD 15 respectively for non-East Africans.
+        </p>
+        <div class="application-grid">
+        <div class="application-div">
+          <img class="three-pillar" src="test-images/three-pillar.jpg"> <span class="paragraph-pg">Fee Structure</span>
+        </div>
+        <div class="application-div">
+          <img class="three-pillar" src="test-images/three-pillar.jpg"> <span class="paragraph-pg" >Application Form</span>
+        </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+
+
+        <footer class="footer-section" style="background-color: #0000FF;">
+          <div  style="padding-left: 70px;
+    padding-right: 20px;
+    padding-top: 17px;
+    margin-bottom: 70px;
+    ">
+    <h2 class="use-ful2">
+      Flashlight Magazine/Newsletter
+    </h2>
+    <hr class="hr-r2">
+    <img src="test-images/FlashlightIssue13.jpg">
+    <p class="paragraph-fl">
+      Flashlight Issue 13 - Current
+    </p>
+
+
+    <a href="https://drive.google.com/file/d/1h9UqLYeDSARN-4q75KKfrdyGeLfAe3Qk/view?usp=sharing"><img loading="lazy" decoding="async" width="139" height="180" src="https://embuni.ac.ke/wp-content/uploads/2023/10/NewsLetterIssue20.jpg" alt="" class="wp-image-7789"></a>
+    <p class="paragraph-fl">
+      Monthly Flashlight Newsletter - September 2023 Issue 20 (Current)
+    </p>
+    <p class="paragraph-pv">
+      Previous Flashlight Newsletter Issues|Previous 
+      </p>
+      <p class="paragraph-mg">Magazine Issues
+    </p>
+  </div>
+  <div style="padding-left: 70px;
+    padding-right: 20px;
+    padding-top: 17px;
+    margin-bottom: 70px;
+    ">
+    <h2 class="use-ful2">
+     Important Links
+    </h2>
+     <hr class="hr-r3">
+     <p class="paragraph-ue"><span class="right-arrow"> &#8594;</span>
+      UoEm ICT Support Services
+
+      </p>
+       <hr class="hr-r">
+     <p class="paragraph-ue"><span class="right-arrow"> &#8594;</span>
+      University of Embu Students Association (UESA)
+
+     </p>
+      <hr class="hr-r">
+     <p class="paragraph-ue"><span class="right-arrow"> &#8594;</span>
+      Proactive Disclosure of Information
+
+     </p> <hr class="hr-r">
+     <p class="paragraph-ue"><span class="right-arrow"> &#8594;</span>
+      UoEm Applications
+
+     </p> <hr class="hr-r">
+     <p class="paragraph-ue"><span class="right-arrow"> &#8594;</span>
+      Dean of Students
+
+     </p> <hr class="hr-r">
+     <p class="paragraph-ue"><span class="right-arrow"> &#8594;</span>
+      Our Partners
+
+     </p> <hr class="hr-r">
+     <p class="paragraph-ue"><span class="right-arrow"> &#8594;</span>
+      Our Contacts
+
+     </p> <hr class="hr-r">
+     <p class="paragraph-ue"><span class="right-arrow"> &#8594;</span>
+      Recruitment Portal
+
+
+     </p> <hr class="hr-r">
+     <p class="paragraph-ue"><span class="right-arrow"> &#8594;</span>
+      Staff Portal
+
+     </p> <hr class="hr-r">
+     <p class="paragraph-ue"><span class="right-arrow"> &#8594;</span>
+      University Rankings
+
+     </p> <hr class="hr-r">
+     <p class="paragraph-ue"><span class="right-arrow"> &#8594;</span>
+      Higher Education Financing Portal
+
+     </p> <hr class="hr-r">
+
+          </div>
+          <div style="padding-left: 70px;
+    padding-right: 20px;
+    padding-top: 17px;
+    margin-bottom: 70px;
+    ">
+          <h2 class="use-ful2">
+     
+
+Resources
+    </h2>
+     <hr class="hr-r3">
+     <p class="paragraph-ue"><span class="right-arrow"> &#8594;</span>
+      ODeL
+
+      </p>
+       <hr class="hr-r">
+     <p class="paragraph-ue"><span class="right-arrow"> &#8594;</span>
+      E-Learning
+
+     </p>
+      <hr class="hr-r">
+     <p class="paragraph-ue"><span class="right-arrow"> &#8594;</span>
+      Students Resources
+
+     </p> <hr class="hr-r">
+     <p class="paragraph-ue"><span class="right-arrow"> &#8594;</span>
+      Student Portal (TVET)
+
+     </p> <hr class="hr-r">
+     <p class="paragraph-ue"><span class="right-arrow"> &#8594;</span>
+      Student Portal
+
+     </p> <hr class="hr-r">
+     <p class="paragraph-ue"><span class="right-arrow"> &#8594;</span>
+      Staff Documents
+
+     </p> <hr class="hr-r">
+     <p class="paragraph-ue"><span class="right-arrow"> &#8594;</span>
+      Kenet Web Conference
+
+     </p> <hr class="hr-r">
+     <p class="paragraph-ue"><span class="right-arrow"> &#8594;</span>
+      UoEm Web Conference
+
+
+     </p> <hr class="hr-r">
+     
+     </div>
+     
+          
+
+
+
+
+
+        </footer>
+
+
+
+      </body>
+
+
+
+
+
+</html>
